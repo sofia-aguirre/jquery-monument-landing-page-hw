@@ -289,7 +289,7 @@ textarea {
 
 input, textarea {
 	border: 2px solid #44545E;
-	margin-bottom: 12px;
+	margin-bottom: 8px;
 	margin-bottom: .8rem;
 	padding: 10px 10px;
 	outline: 0;
@@ -301,43 +301,43 @@ input, textarea {
 }
 
 ::-webkit-input-placeholder {
-   color: #7C878E;
-   text-transform: uppercase;
-   letter-spacing: 0.75px;
-   letter-spacing: .05rem;
-   font-size: 12.299px;
-   font-size: .82rem;
-   font-weight: 600;
+	color: #7C878E;
+	text-transform: uppercase;
+	letter-spacing: 0.75px;
+	letter-spacing: .05rem;
+	font-size: 12.299px;
+	font-size: .82rem;
+	font-weight: 600;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #7C878E;
-   text-transform: uppercase;
-   letter-spacing: 0.75px;
-   letter-spacing: .05rem;
-   font-size: 12.299px;
-   font-size: .82rem;
-   font-weight: 600;
+	color: #7C878E;
+	text-transform: uppercase;
+	letter-spacing: 0.75px;
+	letter-spacing: .05rem;
+	font-size: 12.299px;
+	font-size: .82rem;
+	font-weight: 600;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #7C878E;
-   text-transform: uppercase;
-   letter-spacing: 0.75px;
-   letter-spacing: .05rem;
-   font-size: 12.299px;
-   font-size: .82rem;
-   font-weight: 600;
+	color: #7C878E;
+	text-transform: uppercase;
+	letter-spacing: 0.75px;
+	letter-spacing: .05rem;
+	font-size: 12.299px;
+	font-size: .82rem;
+	font-weight: 600;
 }
 
 :-ms-input-placeholder {  
-   color: #7C878E;
-   text-transform: uppercase;
-   letter-spacing: 0.75px;
-   letter-spacing: .05rem;
-   font-size: 12.299px;
-   font-size: .82rem;
-   font-weight: 600; 
+	color: #7C878E;
+	text-transform: uppercase;
+	letter-spacing: 0.75px;
+	letter-spacing: .05rem;
+	font-size: 12.299px;
+	font-size: .82rem;
+	font-weight: 600; 
 }
 
 /* ----------------------------------------
@@ -383,8 +383,18 @@ footer .wrap {
 Error Styles
 ------------------------------------------- */
 /* Add error styles here */
+.error {
+	border: 2px solid #ED5254;
+}
 
-
+.error-message {
+	color: #ED5254;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding: 0;
+	display: none;
+}
 
 /* ----------------------------------------
 Media Queries
